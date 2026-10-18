@@ -1,3 +1,11 @@
+# ============================================================
+# Archivo: ejercicio2.py
+# Curso: SOFT-01 Principios de Programación 1 - Sección SCP0
+# Integrantes: Daniel Cordero, Deylan Tencio
+# Fecha: 16/10/2026 Versión: 1.0
+# Descripción: Calcula los recursos necesarios para una misión.
+# ============================================================
+
 # Entrada de datos
 combustible_disponible = int(input("Digite el combustible disponible: "))
 combustible_ida = int(input("Digite el combustible necesario para llegar: "))

@@ -1,3 +1,10 @@
+# ============================================================
+# Archivo: ejercicio1.py
+# Curso: SOFT-01 Principios de Programación 1 - Sección SCP0
+# Integrantes: Daniel Cordero, Deylan Tencio
+# Fecha: 16/10/2026 Versión: 1.0
+# Descripción: Calcula los recursos necesarios para una misión.
+# ============================================================
 # Entrada de datos
 nombre_mision = input("Digite el nombre de la mision: ")
 tripulantes = int(input("Digite la cantidad de tripulantes: "))
