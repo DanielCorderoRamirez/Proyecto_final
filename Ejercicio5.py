@@ -11,6 +11,10 @@
 nombre_mision = input("Ingrese el nombre de la mision: ")
 tripulantes = int(input("Ingrese la cantidad de tripulantes: "))
 
+# Reservas de recursos para la mision
+RESERVA_COMBUSTIBLE = 25
+RESERVA_PROVISIONES = 10
+
 # Mostrar los destinos
 print("Seleccione un destino:")
 print("1. Luna")
@@ -45,16 +49,12 @@ else:
     energia_disponible = int(input("Energia disponible: "))
     provisiones_disponibles = int(input("Provisiones disponibles: "))
 
-    # Calcular combustible
-    combustible_ida = dias_viaje * COMBUSTIBLE_DIA
-    combustible_regreso = dias_viaje * COMBUSTIBLE_DIA
+    # Calcular requerimientos de recursos
+    combustible_ida = dias_viaje * 10
+    combustible_regreso = dias_viaje * 6
     combustible_total = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
-
-    # Calcular oxigeno
-    oxigeno_requerido = dias_viaje * tripulantes * OXIGENO_DIA + RESERVA_OXIGENO
-
-    # Calcular energia
-    energia_requerida = dias_viaje * ENERGIA_DIA + RESERVA_ENERGIA
+    oxigeno_requerido = tripulantes * dias_viaje * 4
+    energia_requerida = tripulantes * dias_viaje * 3
 
     # Calcular provisiones
     provisiones_requeridas = dias_viaje * tripulantes + RESERVA_PROVISIONES
