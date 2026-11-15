@@ -4,7 +4,7 @@
 # Integrantes: Daniel Cordero
 # Fecha: 13/11/2026
 # Version: 1.0
-# Descripcion: Selección del destino y autorización de la misión.
+# Descripcion: Actividades de exploración científica.
 # ============================================================
 
 # Constantes de consumo y puntos de cada actividad
